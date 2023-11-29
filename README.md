@@ -71,3 +71,11 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Module Decorator implementation
+
+Le Prototype et la déclaration se trouvent dans node_modules, cela nécessitent donc de clone + installer le module.
+
+- [Prototype](./node_modules/@nestjs/common/decorators/modules/module.decorator.d.ts)
+- [Déclaration](./node_modules/@nestjs/common/decorators/modules/module.decorator.js)
+- [Utilisation](./src/app.module.ts)
